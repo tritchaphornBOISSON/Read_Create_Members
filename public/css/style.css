@@ -1,0 +1,80 @@
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    );
+}
+h1 {
+    font-family: "Fredericka the Great", cursive;
+}
+div#header_title h1 {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 0.6713060224089635) 0%,
+        rgba(148, 187, 233, 0.6488970588235294) 100%
+    );
+    width: 50%;
+    padding: 30px;
+    display: block;
+    margin: auto;
+    border: solid 3px;
+    border-radius: 60px;
+}
+tr#table_header th,
+.head_name,
+.enter_name {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Parisienne", cursive;
+}
+tr#table_body td,
+.result_name {
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 20px;
+}
+tr#table_header {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 0.6713060224089635) 0%,
+        rgba(148, 187, 233, 0.6488970588235294) 100%
+    );
+}
+a#button_dispay,
+a#new_button,
+input#add_member,
+a#button_back {
+    background: rgb(238, 174, 202);
+    color: #000;
+    border: 2px solid;
+    font-family: "Cutive Mono", monospace;
+    font-size: 18px;
+}
+a#button_dispay:hover,
+a#new_button:hover,
+input#add_member:hover,
+a#button_back:hover {
+    transform: translateY(0) scale(1.2);
+}
+div#display_name {
+    width: 50%;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 0.6713060224089635) 0%,
+        rgba(148, 187, 233, 0.6488970588235294) 100%
+    );
+    padding: 60px;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 5px gray;
+}
+input.form-control.input-lg {
+    line-height: 2.56;
+}

@@ -11,34 +11,29 @@
 </div>
 @endif
 <div align="right">
-    <a href="{{ route('member.index') }}" class="btn btn-default">Back</a>
+    <a href="{{ route('member.index') }}" class="btn btn-default" id="button_back">Back to Homepage</a>
 </div>
 
 <form method="post" action="{{ route('member.store') }}" enctype="multipart/form-data">
 
     @csrf
     <div class="form-group">
-        <label class="col-md-4 text-right">Enter First Name</label>
-        <div class="col-md-8">
+        <label class="enter_name">Enter First Name</label>
+        <div class="input_name">
             <input type="text" name="first_name" class="form-control input-lg" />
         </div>
     </div>
-    <br />
-    <br />
-    <br />
+
     <div class="form-group">
-        <label class="col-md-4 text-right">Enter Last Name</label>
-        <div class="col-md-8">
+        <label class="enter_name">Enter Last Name</label>
+        <div class="input_name">
             <input type="text" name="last_name" class="form-control input-lg" />
         </div>
     </div>
-    <br />
-    <br />
-    <br />
+    <br>
 
-    <br /><br /><br />
     <div class="form-group text-center">
-        <input type="submit" name="add" class="btn btn-primary input-lg" value="Add" />
+        <input id="add_member" type="submit" name="add" class="btn btn-primary input-lg" value="Add a member" />
     </div>
 
 </form>
